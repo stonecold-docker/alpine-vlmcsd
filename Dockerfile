@@ -1,8 +1,8 @@
 ARG BUILD_ARCH=x64
 
-FROM forumi0721alpine${BUILD_ARCH}build/alpine-${BUILD_ARCH}-vlmcsd-builddep as builddep
+FROM forumi0721alpinex64build/alpine-x64-vlmcsd-builddep as builddep
 
-FROM forumi0721/alpine-x64-base:latest
+FROM forumi0721/alpine-${BUILD_ARCH}-base:latest
 
 LABEL maintainer="forumi0721@gmail.com"
 
