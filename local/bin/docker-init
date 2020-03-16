@@ -2,20 +2,14 @@
 
 set -e
 
-docker-install -r -u build-base wget
+echo "==> Installing vlmcsd"
+ln -sf /app/vlmcsd/vlmcs /usr/local/bin/vlmcs
+ln -sf /app/vlmcsd/vlmcsd /usr/local/bin/vlmcsd
+echo "==> OK"
+echo
 
-rm -rf /build
-
-mkdir -p /build/vlmcsd
-cd /build/vlmcsd
-wget --no-check-certificate https://github.com/Wind4/vlmcsd/archive/master.tar.gz -q -O - | tar zx
-cd vlmcsd-master
-make
-install -Dm755 bin/vlmcs /usr/local/bin/
-install -Dm755 bin/vlmcsd /usr/local/bin/
-
-cd /
-rm -rf /build
-
-docker-install -d -c build-base wget
+echo "==> Uninstalling unnecessary packages"
+docker-install -d -c
+echo "==> OK"
+echo
 
