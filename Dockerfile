@@ -1,6 +1,6 @@
 ARG BUILD_ARCH=x64
 
-FROM forumi0721alpinex64build/alpine-x64-vlmcsd-builddep as builddep
+FROM forumi0721alpinex64build/alpine-x64-vlmcsd-builddep:latest as builddep
 
 FROM forumi0721/alpine-${BUILD_ARCH}-base:latest
 

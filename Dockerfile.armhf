@@ -1,6 +1,6 @@
 ARG BUILD_ARCH=armhf
 
-FROM forumi0721alpinearmhfbuild/alpine-armhf-vlmcsd-builddep as builddep
+FROM forumi0721alpinearmhfbuild/alpine-armhf-vlmcsd-builddep:latest as builddep
 
 FROM forumi0721/alpine-${BUILD_ARCH}-base:latest
 
