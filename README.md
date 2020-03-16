@@ -1,11 +1,26 @@
 # alpine-vlmcsd
 
 #### [alpine-x64-vlmcsd](https://hub.docker.com/r/forumi0721alpinex64/alpine-x64-vlmcsd/)
-[![](https://images.microbadger.com/badges/version/forumi0721alpinex64/alpine-x64-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpinex64/alpine-x64-vlmcsd "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/forumi0721alpinex64/alpine-x64-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpinex64/alpine-x64-vlmcsd "Get your own image badge on microbadger.com") [![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpinex64/alpine-x64-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpinex64/alpine-x64-vlmcsd/) [![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpinex64/alpine-x64-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpinex64/alpine-x64-vlmcsd/)
+![Docker Automated build](https://img.shields.io/docker/automated/forumi0721x64/alpine-x64-vlmcsd)
+![Docker Build Status](https://img.shields.io/docker/build/forumi0721x64/alpine-x64-vlmcsd)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721x64/alpine-x64-vlmcsd/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721x64/alpine-x64-vlmcsd)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721x64/alpine-x64-vlmcsd)
+![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721x64/alpine-x64-vlmcsd/latest)
 #### [alpine-aarch64-vlmcsd](https://hub.docker.com/r/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/)
-[![](https://images.microbadger.com/badges/version/forumi0721alpineaarch64/alpine-aarch64-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpineaarch64/alpine-aarch64-vlmcsd "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/forumi0721alpineaarch64/alpine-aarch64-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpineaarch64/alpine-aarch64-vlmcsd "Get your own image badge on microbadger.com") [![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpineaarch64/alpine-aarch64-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/) [![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpineaarch64/alpine-aarch64-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/)
+![Docker Automated build](https://img.shields.io/docker/automated/forumi0721aarch64/alpine-aarch64-vlmcsd)
+![Docker Build Status](https://img.shields.io/docker/build/forumi0721aarch64/alpine-aarch64-vlmcsd)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721aarch64/alpine-aarch64-vlmcsd/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721aarch64/alpine-aarch64-vlmcsd)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721aarch64/alpine-aarch64-vlmcsd)
+![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721aarch64/alpine-aarch64-vlmcsd/latest)
 #### [alpine-armhf-vlmcsd](https://hub.docker.com/r/forumi0721alpinearmhf/alpine-armhf-vlmcsd/)
-[![](https://images.microbadger.com/badges/version/forumi0721alpinearmhf/alpine-armhf-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpinearmhf/alpine-armhf-vlmcsd "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/forumi0721alpinearmhf/alpine-armhf-vlmcsd.svg)](https://microbadger.com/images/forumi0721alpinearmhf/alpine-armhf-vlmcsd "Get your own image badge on microbadger.com") [![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpinearmhf/alpine-armhf-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpinearmhf/alpine-armhf-vlmcsd/) [![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpinearmhf/alpine-armhf-vlmcsd.svg?style=flat-square)](https://hub.docker.com/r/forumi0721alpinearmhf/alpine-armhf-vlmcsd/)
+![Docker Automated build](https://img.shields.io/docker/automated/forumi0721armhf/alpine-armhf-vlmcsd)
+![Docker Build Status](https://img.shields.io/docker/build/forumi0721armhf/alpine-armhf-vlmcsd)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721armhf/alpine-armhf-vlmcsd/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721armhf/alpine-armhf-vlmcsd)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721armhf/alpine-armhf-vlmcsd)
+![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721armhf/alpine-armhf-vlmcsd/latest)
 
 
 
