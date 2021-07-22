@@ -1,23 +1,13 @@
 # alpine-vlmcsd
+![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721/alpine-vlmcsd)
+![Docker Stars](https://img.shields.io/docker/stars/forumi0721/alpine-vlmcsd)
 
-#### [alpine-x64-vlmcsd](https://hub.docker.com/r/forumi0721alpinex64/alpine-x64-vlmcsd/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721alpinex64/alpine-x64-vlmcsd/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721alpinex64/alpine-x64-vlmcsd/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721alpinex64/alpine-x64-vlmcsd/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpinex64/alpine-x64-vlmcsd)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpinex64/alpine-x64-vlmcsd)
-#### [alpine-aarch64-vlmcsd](https://hub.docker.com/r/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721alpineaarch64/alpine-aarch64-vlmcsd/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpineaarch64/alpine-aarch64-vlmcsd)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpineaarch64/alpine-aarch64-vlmcsd)
-#### [alpine-armhf-vlmcsd](https://hub.docker.com/r/forumi0721alpinearmhf/alpine-armhf-vlmcsd/)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/forumi0721alpinearmhf/alpine-armhf-vlmcsd/latest)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721alpinearmhf/alpine-armhf-vlmcsd/latest)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/forumi0721alpinearmhf/alpine-armhf-vlmcsd/latest)
-![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721alpinearmhf/alpine-armhf-vlmcsd)
-![Docker Stars](https://img.shields.io/docker/stars/forumi0721alpinearmhf/alpine-armhf-vlmcsd)
+### x64
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-vlmcsd/latest)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/latest)
+### aarch64
+![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-vlmcsd/aarch64)
+![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/aarch64)
 
 
 
@@ -25,7 +15,7 @@
 #### Description
 
 * Distribution : [Alpine Linux](https://alpinelinux.org/)
-* Architecture : x64,aarch64,armhf
+* Architecture : x64,aarch64
 * Appplication : [vlmcsd](https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms)
     - Emulated KMS Servers on non-Windows platforms.
 
@@ -37,7 +27,7 @@
 ```sh
 docker run -d \
            -p 1688:1688 \
-           forumi0721alpine[ARCH]/alpine-[ARCH]-vlmcsd:latest
+           forumi0721/alpine-vlmcsd:[ARCH_TAG]
 ```
 
 
