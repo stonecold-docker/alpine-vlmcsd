@@ -3,32 +3,13 @@
 set -e
 
 echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> Installing vlmcsd"
-mkdir -p /build/vlmcsd
-cd /build/vlmcsd
-wget --no-check-certificate https://github.com/Wind4/vlmcsd/archive/master.tar.gz -q -O - | tar zx
-cd vlmcsd-master
-make
-mkdir -p /app/vlmcsd
-install -Dm755 bin/vlmcs /app/vlmcsd/vlmcs
-install -Dm755 bin/vlmcsd /app/vlmcsd/vlmcsd
-cd /
-rm -rf /build
 ln -sf /app/vlmcsd/vlmcs /usr/local/bin/vlmcs
 ln -sf /app/vlmcsd/vlmcsd /usr/local/bin/vlmcsd
 echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> OK"
 echo
 
 echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> Uninstalling unnecessary packages"
-docker-install -d -c ${PKG_DEV}
-echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> OK"
-echo
-
-echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> Moving output files"
-mkdir -p /output
-mv /app/vlmcsd /output/
-if [ -z "$(ls -A -- /app)" ]; then
-	rm -rf /app
-fi
+docker-install -d -c
 echo "[$(TZ="GMT-9" date '+%Y-%m-%d %H:%M:%S')] ==> OK"
 echo
 
