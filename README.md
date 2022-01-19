@@ -3,10 +3,8 @@
 ![Docker Stars](https://img.shields.io/docker/stars/forumi0721/alpine-vlmcsd)
 
 ### x64
-![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-vlmcsd/x64)
 ![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/x64)
 ### aarch64
-![Docker Image Version](https://img.shields.io/docker/v/forumi0721/alpine-vlmcsd/aarch64)
 ![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/aarch64)
 
 
