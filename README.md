@@ -2,10 +2,13 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/forumi0721/alpine-vlmcsd)
 ![Docker Stars](https://img.shields.io/docker/stars/forumi0721/alpine-vlmcsd)
 
-### x64
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/x64)
-### aarch64
-![Docker Image Size](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/aarch64)
+
+
+----------------------------------------
+### amd64
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/latest?arch=amd64)
+### arm64
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/forumi0721/alpine-vlmcsd/latest?arch=arm64)
 
 
 
@@ -13,8 +16,8 @@
 #### Description
 
 * Distribution : [Alpine Linux](https://alpinelinux.org/)
-* Architecture : x64,aarch64
-* Appplication : [vlmcsd](https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms)
+* Architecture : amd64, arm64
+* Application : [vlmcsd](https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms)
     - Emulated KMS Servers on non-Windows platforms.
 
 
@@ -25,7 +28,7 @@
 ```sh
 docker run -d \
            -p 1688:1688 \
-           forumi0721/alpine-vlmcsd:[ARCH_TAG]
+           forumi0721/alpine-vlmcsd:latest
 ```
 
 
